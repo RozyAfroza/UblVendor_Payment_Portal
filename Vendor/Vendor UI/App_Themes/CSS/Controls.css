@@ -1,0 +1,56 @@
+﻿.ColHide
+{
+	display:none;
+}
+
+.Test
+{
+    color:inherit;
+    }
+    
+     .style1
+        {
+            width: 478px;
+            height: 278px;
+            margin-left: 0px;
+        }
+        .style6
+        {
+            width: 112px;
+            height: 75px;
+        }
+        .style7
+        {
+            width: 330px;
+            height: 75px;
+        }
+        .style11
+        {
+            height: 80px;
+        }
+        .style14
+        {
+            width: 112px;
+            height: 73px;
+        }
+        .style15
+        {
+            width: 330px;
+            height: 73px;
+        }
+        .style16
+        {
+            width: 112px;
+            height: 65px;
+        }
+        .style17
+        {
+            width: 330px;
+            height: 65px;
+        }
+        #form2
+        {
+            height: 314px;
+            width: 658px;
+            margin-left: 68px;
+        }

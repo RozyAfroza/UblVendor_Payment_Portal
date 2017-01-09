@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs"
+    Inherits="Vendor.UI.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Vendor Payment Portal</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 1049px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width: 1272px; height: 232px;">
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <table style="width: 100%;">
+                    <tr>
+                        <td class="style1">
+                            &nbsp;<img src="Image%20All/UBL%20Vendor%20Payment%20Portal%20Theme1.jpg" 
+                                style="width: 1342px; height: 199px" />
+                        </td>
+                    </tr>
+                </table>
+                <td>
+                    <asp:Menu ID="mnuSystemMenu" runat="server" Orientation="Horizontal" CssClass="MenuBarStyle"
+                        BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em"
+                        ForeColor="#990000" StaticSubMenuIndent="10px" Height="45px" BorderColor="#0066FF"
+                        Width="109px" OnMenuItemClick="mnuSystemMenu_MenuItemClick">
+                        <StaticMenuStyle CssClass="MenuStyle" />
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                        <StaticMenuItemStyle CssClass="MenuStyle" HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                        <DynamicMenuStyle CssClass=" MenuStyleSI" BackColor="#FFFBD6" />
+                        <DynamicSelectedStyle BackColor="#FFCC66" />
+                        <DynamicMenuItemStyle CssClass=" MenuStyleSI" HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                        <Items>
+                            <asp:MenuItem Text="Master Data" Value="Master Data">
+                                <asp:MenuItem Text="Vendor" Value="Vendor" NavigateUrl="~/VendorList.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Document" Value="Document" NavigateUrl="~/DocumentList.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Holiday" Value="Holiday" NavigateUrl="~/HolidayList.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Transection" Value="Transection">
+                                <asp:MenuItem Text="Invoice" Value="Invoice" NavigateUrl="~/InvoiceList.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Payment" Value="Payment" NavigateUrl="~/PaymentList.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Report" Value="Report">
+                                <asp:MenuItem NavigateUrl="~/ReportInvoice.aspx" Text="ReportInvoice" Value="ReportInvoice">
+                                </asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Permission" Value="Permission">
+                                <asp:MenuItem NavigateUrl="~/UserList.aspx" Text="User" Value="User"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Security" Value="Security">
+                                <asp:MenuItem Text="Change Password" Value="Change Password"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="lblUserName" runat="server" Text=""></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="lnkbtnLogout" runat="server" OnClick="lnkbtnLogout_Click">Logout</asp:LinkButton>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="lblHeader" runat="server"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="lblMessage" runat="server" BackColor="#A8FFA8"></asp:Label>
+                </td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder ID="cph" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

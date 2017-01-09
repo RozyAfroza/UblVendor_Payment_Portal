@@ -1,0 +1,27 @@
+D:\Vendor\Vendor UI\bin\Vendor UI.dll
+D:\Vendor\Vendor UI\bin\Vendor UI.pdb
+D:\Vendor\Vendor UI\bin\ClassLibrary1.dll
+D:\Vendor\Vendor UI\bin\DataAccess.dll
+D:\Vendor\Vendor UI\bin\ClassLibrary1.pdb
+D:\Vendor\Vendor UI\bin\DataAccess.pdb
+D:\Vendor\Vendor UI\obj\Debug\ResolveAssemblyReference.cache
+D:\Vendor\Vendor UI\obj\Debug\Vendor UI.dll
+D:\Vendor\Vendor UI\obj\Debug\Vendor UI.pdb
+D:\Project\Vendor\Vendor UI\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Vendor\Vendor UI\obj\Debug\Vendor UI.dll
+D:\Project\Vendor\Vendor UI\bin\Vendor UI.dll
+D:\Project\Vendor\Vendor UI\bin\Vendor UI.pdb
+D:\Project\Vendor\Vendor UI\bin\ClassLibrary1.dll
+D:\Project\Vendor\Vendor UI\bin\DataAccess.dll
+D:\Project\Vendor\Vendor UI\bin\ClassLibrary1.pdb
+D:\Project\Vendor\Vendor UI\bin\DataAccess.pdb
+D:\Project\Vendor\Vendor UI\obj\Debug\Vendor UI.pdb
+D:\Rozy Document\Rozy Document\Study file\Practicum Project for UBL Vendor Payment Portal\Vendor\Vendor UI\bin\Vendor UI.dll
+D:\Rozy Document\Rozy Document\Study file\Practicum Project for UBL Vendor Payment Portal\Vendor\Vendor UI\bin\Vendor UI.pdb
+D:\Rozy Document\Rozy Document\Study file\Practicum Project for UBL Vendor Payment Portal\Vendor\Vendor UI\bin\ClassLibrary1.dll
+D:\Rozy Document\Rozy Document\Study file\Practicum Project for UBL Vendor Payment Portal\Vendor\Vendor UI\bin\DataAccess.dll
+D:\Rozy Document\Rozy Document\Study file\Practicum Project for UBL Vendor Payment Portal\Vendor\Vendor UI\bin\ClassLibrary1.pdb
+D:\Rozy Document\Rozy Document\Study file\Practicum Project for UBL Vendor Payment Portal\Vendor\Vendor UI\bin\DataAccess.pdb
+D:\Rozy Document\Rozy Document\Study file\Practicum Project for UBL Vendor Payment Portal\Vendor\Vendor UI\obj\Debug\ResolveAssemblyReference.cache
+D:\Rozy Document\Rozy Document\Study file\Practicum Project for UBL Vendor Payment Portal\Vendor\Vendor UI\obj\Debug\Vendor UI.dll
+D:\Rozy Document\Rozy Document\Study file\Practicum Project for UBL Vendor Payment Portal\Vendor\Vendor UI\obj\Debug\Vendor UI.pdb

@@ -1,0 +1,4 @@
+D:\Vendor\Vendor UI\bin\Vendor UI.pdb
+D:\Vendor\Vendor UI\obj\Debug\ResolveAssemblyReference.cache
+D:\Vendor\Vendor UI\obj\Debug\Vendor UI.dll
+D:\Vendor\Vendor UI\obj\Debug\Vendor UI.pdb
